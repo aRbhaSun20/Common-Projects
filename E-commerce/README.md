@@ -1,0 +1,1 @@
+E-commerce Magaement system implementing the basic features using mysql,socket.io

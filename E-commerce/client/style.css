@@ -1,0 +1,381 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+  width: 100%;
+  height: 15vh;
+}
+
+.home .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.home .items .indi-item {
+  margin: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  border: 1px solid rgba(199, 199, 199, 0.561);
+  background-color: rgba(233, 233, 233, 0.746);
+}
+
+.home .items .indi-item img {
+  scale: 0.8;
+  width: 15em;
+  height: 15em;
+}
+
+.home .items .indi-item .indi-details {
+  margin-right: 1em;
+}
+
+.home .items .indi-item .indi-details .name {
+  margin-top: 0.8em;
+  color: red;
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+
+.home .items .indi-item .indi-details button {
+  background-color: purple;
+  width: 8em;
+  position: relative;
+  bottom: -2em;
+  height: 3em;
+  color: white;
+}
+
+.top-section {
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.top-section .title {
+  font-size: 40px;
+  position: relative;
+  right: 4em;
+  top: 0.2em;
+}
+
+.top-section .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50em;
+  position: relative;
+  top: 1em;
+  right: -5em;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.top-section .inputs button {
+  width: 7em;
+  height: 2.5em;
+  color: purple;
+  font-size: 16px;
+}
+
+.top-section .inputs a {
+  text-decoration: none;
+}
+
+.top-section .inputs .submit {
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+}
+
+.top-section .inputs .search {
+  position: relative;
+  top: -0.1em;
+}
+
+.top-section .inputs input {
+  width: 25em;
+  height: 2.7em;
+  margin-right: 1em;
+}
+
+nav {
+  height: 6em;
+  background-color: #444444;
+  margin: 2em 0em;
+}
+
+nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  top: -1.2em;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 18px;
+}
+
+nav .nav-links a {
+  text-decoration: none;
+  margin-top: 2em;
+  min-width: 10em;
+  height: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5em 1em;
+  color: white;
+}
+
+nav .nav-links li {
+  list-style: none;
+  text-align: center;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.products .indi-products {
+  padding: 2em;
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 10%;
+  margin: 1em;
+  background-color: #e0e0e0;
+}
+
+.contact {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  margin: 10% auto;
+}
+
+.contact .title {
+  text-align: center;
+  font-size: 30px;
+  margin: 2em 0em;
+}
+
+.contact .mob {
+  margin-bottom: 4em;
+}
+
+.register {
+  margin: 1em;
+  position: relative;
+  right: -22em;
+  width: 60%;
+  height: 65vh;
+  border: 1px solid black;
+}
+
+.register .title {
+  width: 100%;
+  height: 2.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  color: #333333;
+  background-color: white;
+}
+
+.register .input-sectioon {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3a3a3a;
+}
+
+.register .input-sectioon .indi {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.register .input-sectioon .indi .text {
+  width: 3em;
+  color: white;
+}
+
+.register .input-sectioon .indi input {
+  margin-left: 10em;
+  width: 30em;
+  height: 2em;
+}
+
+.register .input-sectioon .submit {
+  color: white;
+  width: 10em;
+  height: 3em;
+  border: none;
+  border: 1px solid black;
+  background-color: purple;
+}
+
+.login {
+  width: 100%;
+  height: 50vh;
+  margin: 5em 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .title {
+  width: 15em;
+  color: black;
+  font-size: 30px;
+}
+
+.login .inputs {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .inputs .indi-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1em;
+  width: 50%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.login .inputs .indi-input .text {
+  width: 10em;
+  background-color: purpl;
+  width: 7em;
+  text-align: center;
+  height: 2em;
+  padding-top: 15px;
+  color: black;
+}
+
+.login .inputs .indi-input input {
+  width: 30em;
+}
+
+.login .submit {
+  font-size: 20px;
+  color: white;
+  width: 8em;
+  height: 2.5em;
+  border: none;
+  border: 1px solid #020202;
+  background-color: purple;
+}
+
+.about {
+  margin: 1em 3em;
+}
+
+.about .title {
+  margin: 2em 0em;
+  color: #0a0a0a;
+  font-size: 30px;
+}
+
+.about .desc {
+  margin-left: 1em;
+  background-color: white;
+  color: black;
+  width: 70%;
+  text-align: justify;
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */

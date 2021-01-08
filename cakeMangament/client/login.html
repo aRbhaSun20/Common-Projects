@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./socket.io.js"></script>
+</head>
+
+<body>
+    <div class="login">
+        <div class="title"> LOGIN TO YOUR ACCOUNT </div>
+        <div class="inputs">
+            <div class="indi-input">
+                <div class="text">User Name</div> <input type="text" name="" onchange="handleChange(this.id,this.value)"
+                    id="Username">
+            </div>
+            <div class="indi-input">
+                <div class="text">Password</div> <input type="password" name="" onchange="handleChange(this.id,this.value)"
+                    id="Userpass">
+            </div>
+        </div>
+        <button class="submit" onclick="handleLogin()"> login </button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

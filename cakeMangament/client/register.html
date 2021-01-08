@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./socket.io.js"></script>
+</head>
+
+<body>
+    <div class="register">
+        <div class="title"> REGISTER HERE </div>
+        <div class="input-sectioon">
+            <div class="indi">
+                <div class="text"> FULL NAME </div> <input type="text" name="input" onchange="handleChange(this.id,this.value)"
+                    id="fullName">
+            </div>
+            <div class="indi">
+                <div class="text">EMAIL</div> <input type="text" name="input"
+                    onchange="handleChange(this.id,this.value)" id="email">
+            </div>
+            <div class="indi">
+                <div class="text">PASSWORD </div><input type="password" name="input"
+                    onchange="handleChange(this.id,this.value)" id="password">
+            </div>
+            <div class="indi">
+                <div class="text">PHONE NO </div> <input type="text" name="input"
+                    onchange="handleChange(this.id,this.value)" id="phone">
+            </div>
+            <div class="indi">
+                <div class="text">ADDRESS </div> <input type="text" name="input"
+                    onchange="handleChange(this.id,this.value)" id="address">
+            </div>
+            <div class="indi">
+                <div class="text">PINCODE </div> <input type="text" name="input"
+                    onchange="handleChange(this.id,this.value)" id="pin">
+            </div>
+            <button class="submit" onclick="handleClick()"> SUBMIT </button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

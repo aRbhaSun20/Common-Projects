@@ -7,6 +7,9 @@
   width: 100%;
   height: 15vh;
 }
+button,input{
+  cursor: pointer;
+}
 
 .home .items {
   display: -webkit-box;
@@ -105,6 +108,11 @@
   border-radius: 5px;
 }
 
+.top-section .inputs .submit a {
+  text-decoration: none;
+  color: white;
+}
+
 .top-section .inputs .search {
   position: relative;
   top: -0.1em;
@@ -179,11 +187,17 @@ nav .nav-links li {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  height: 10%;
+  height: 8%;
   margin: 1em;
+  position: relative;
+  top: 1em;
   background-color: #e0e0e0;
 }
-
+.products .name{
+  position: relative;
+  top: -0.3em;
+  font-size: 25px;
+}
 .contact {
   width: 100%;
   display: -webkit-box;

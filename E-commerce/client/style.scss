@@ -71,7 +71,8 @@
             height: 2.5em;
             color: purple;
             font-size: 16px;
-            // margin-left: 1em;
+            // margin-left: 1em; 
+          
         }
         a{
             text-decoration: none;
@@ -80,6 +81,10 @@
             background-color: purple;
             color: white;
             border-radius: 5px;
+              a{
+            text-decoration: none;
+            color: white;
+            }
         }
 
         .search {

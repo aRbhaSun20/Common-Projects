@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./socket.io.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,7 +16,7 @@
             <div class="inputs">
                 <div class="search">
                     <input placeholder="Search for Products" type="text" id="search-bar">
-                    <button class="submit">Search Now</button>
+                    <button class="submit"><a href="">Search Now</a></button>
                 </div>
                 <button class="signIn"><a href="./signin.html">Sign In</a></button>
                 <button class="signUp"><a href="./signUp.html">Sign Up</a></button>
@@ -34,16 +35,17 @@
         <div class="title"> LOGIN TO YOUR ACCOUNT </div>
         <div class="inputs">
             <div class="indi-input">
-                <div class="text">User Name</div> <input type="text" name="" onchange="handleChange(this.id,this.value)"
+                <div class="text">User Name</div> <input placeholder="User Name" type="text" name="" onchange="handleChange(this.id,this.value)"
                     id="Username">
             </div>
             <div class="indi-input">
-                <div class="text">Password</div> <input type="password" name=""
+                <div class="text">Password</div> <input placeholder="password" type="password" name=""
                     onchange="handleChange(this.id,this.value)" id="Userpass">
             </div>
         </div>
         <button class="submit" onclick="handleLogin()"> login </button>
     </div>
+    <script src="./script2.js"></script>
 </body>
 
 </html>

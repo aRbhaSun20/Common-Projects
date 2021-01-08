@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./socket.io.js"></script>
     <link rel="stylesheet" href="style.css">
 
 <body>
@@ -14,7 +15,7 @@
             <div class="inputs">
                 <div class="search">
                     <input placeholder="Search for Products" type="text" id="search-bar">
-                    <button class="submit">Search Now</button>
+                    <button class="submit"><a href="">Search Now</a></button>
                 </div>
                 <button class="signIn"><a href="./signin.html">Sign In</a></button>
                 <button class="signUp"><a href="./signUp.html">Sign Up</a></button>
@@ -29,23 +30,9 @@
             <li class="nav-link"><a href="./contact.html" class="link">CONTACT</a></li>
         </ul>
     </nav>
-    <div class="products">
-        <div class="indi-products">
-            <div class="name">Demo</div>
-            <div class="details">demo</div>
-            <div class="price">Rs. 100</div>
-        </div>
-        <div class="indi-products">
-            <div class="name">Demo</div>
-            <div class="details">demo</div>
-            <div class="price">Rs. 100</div>
-        </div>
-        <div class="indi-products">
-            <div class="name">Demo</div>
-            <div class="details">demo</div>
-            <div class="price">Rs. 100</div>
-        </div>
+    <div class="products" id="products">
     </div>
+    <script src="./script1.js"></script>
 </body>
 
 </html>
